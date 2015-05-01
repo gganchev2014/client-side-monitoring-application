@@ -1,8 +1,9 @@
 <?php
-$username = "sql474784";
-$password = "gD2!tL9!";
-$hostname = "sql4.freemysqlhosting.net";
-$database = "sql474784";
+//Database details
+$username = "";
+$password = "";
+$hostname = "";
+$database = "";
 
 //Connect to the database
 $conn = mysqli_connect($hostname, $username, $password, $database);
